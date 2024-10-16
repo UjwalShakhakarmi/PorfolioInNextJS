@@ -59,15 +59,25 @@ export default function RecentProjects() {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow
-                    className="ms-3"
-                    color="#CBACF9"
-                    onClick={projects.link}
-                  />
+                <div className="flex justify-center items-center gap-6">
+                  <div className="flex justify-center items-center">
+                    <a
+                      href={item.codelink}
+                      className="flex lg:text-xl md:text-xs text-sm text-purple"
+                    >
+                      Check Code
+                    </a>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
+                  <div className="flex justify-center items-center">
+                    <a
+                      href={item.link}
+                      className="flex lg:text-xl md:text-xs text-sm text-purple"
+                    >
+                      Check Live Site
+                    </a>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
                 </div>
               </div>
             </PinContainer>

@@ -31,7 +31,7 @@ export default function Hero() {
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
               Hi, I'm Ujwal Shakhakarmi
             </p>
-            <a href="#about">
+            <a href="#projects">
               <MagicButton
                 title="Show my Work"
                 icon={<FaLocationArrow />}

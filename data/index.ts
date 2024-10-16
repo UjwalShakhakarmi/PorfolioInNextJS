@@ -76,7 +76,8 @@ export const projects = [
     des: "Explore full-featured React web application that allows hotel employees to manage cabins, bookings, and guests.",
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "supa.png"],
-    link: "https://github.com/UjwalShakhakarmi/The-Wild-Oasis",
+    codelink: "https://github.com/UjwalShakhakarmi/The-Wild-Oasis",
+    link: "https://the-wild-oasis.vercel.app/dashboard",
   },
   {
     id: 2,
@@ -84,7 +85,9 @@ export const projects = [
     des: "usePopcorn project is a movie search tool developed using ReactJS, aiming to enhance the user experience while searching for movies.",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://github.com/UjwalShakhakarmi/ReactProject/tree/master/usePopcorn",
+    codelink:
+      "https://github.com/UjwalShakhakarmi/ReactProject/tree/master/usePopcorn",
+    link: "https://usepopcorn-but-better.netlify.app/",
   },
   {
     id: 3,
@@ -92,7 +95,9 @@ export const projects = [
     des: "Build a project that shows a location based on the city in the map where i integrated a map using api When we select the city then it redirects to the city loaction on the map.",
     img: "/p3.png",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://github.com/UjwalShakhakarmi/ReactProject/tree/master/WorldWise/",
+    codelink:
+      "https://github.com/UjwalShakhakarmi/ReactProject/tree/master/WorldWise/",
+    link: "https://worldwise-jonas.netlify.app/",
   },
   {
     id: 4,
@@ -100,7 +105,8 @@ export const projects = [
     des: ".Designed a modern and user-friendly interface with a focus on accessibility and SEO optimization",
     img: "/p4.png",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://github.com/UjwalShakhakarmi/Hoosting_Website",
+    codelink: "https://github.com/UjwalShakhakarmi/Hoosting_Website",
+    link: "https://www.hoostly.com/",
   },
 ];
 
